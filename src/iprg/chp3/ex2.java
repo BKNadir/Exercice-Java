@@ -6,7 +6,8 @@ public class ex2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Moyenne de combien de nombre ?");
-        double nb = sc.nextInt(),cpt = nb, moyenne = 0;
+        int nb = sc.nextInt(),cpt = nb;
+        double moyenne = 0;
         while (cpt != 0){
             moyenne += sc.nextDouble();
             cpt--;
