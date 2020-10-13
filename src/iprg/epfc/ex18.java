@@ -7,6 +7,10 @@ public class ex18 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduisez deux nombres");
         double a = sc.nextDouble(), b = sc.nextDouble();
-        if ((a > b  && a > -b) || ( b > a && b > -a))
+        if ((a > b  && a < -b) || ( b > a && b < -a)){
+            System.out.println("Negatif");
+        } else {
+            System.out.println("Positif ou nul");
+        }
     }
 }
