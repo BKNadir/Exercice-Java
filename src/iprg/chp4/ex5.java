@@ -17,5 +17,6 @@ public class ex5 {
                 pos++;
             }
         }
+        System.out.println("positif : " + pos + "\nnegatif : " + neg + "\nnulles : " + nulle);
     }
 }
