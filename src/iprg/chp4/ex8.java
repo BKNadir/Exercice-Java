@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ex8 {
     public static void main(String[] args) {
         int nb, ex;
-        double val = 0;
+        double val;
         boolean neg = false;
         Scanner sc = new Scanner(System.in);
         System.out.println("Entrer un entier");
