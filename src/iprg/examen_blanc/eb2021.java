@@ -15,7 +15,7 @@ public class eb2021 {
             System.out.println("Introduisez une température comprise entre -40° et 50°.");
             temp = sc.nextInt();
             if (temp < -40 || temp > 50) System.out.println("Les bornes ne sont pas respectées.");
-        }while (temp >= -40 && temp <= 50);
+        }while (temp < -40 || temp > 50);
 
         return temp;
     }
@@ -35,4 +35,5 @@ public class eb2021 {
         System.out.println("Les écarts sont " + (t2 - t1) + " et " + (t3 - t2) + ".");
         System.out.println("Il y a eu " + augmentationT + " augmentation(s) de températures.");
     }
+
 }
